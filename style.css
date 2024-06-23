@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.left, .right {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.square {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.divCircle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: aliceblue;
+}
+
+.blue {
+    background-color: rgb(61, 61, 240);
+}
+.red {
+    background-color: rgb(207, 61, 50);
+}
+
+.highlight  {
+    opacity: 0.33;
+}
